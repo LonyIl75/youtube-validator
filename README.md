@@ -3,7 +3,7 @@ Validate youtube initial player response thanks to yup
 
 # Example : 
 ```javascript
-import { YupVldSchOf_PlayerResponse} from "@youtube/ytInitialPlayerResponse/validators.js";
+import { YupVldSchOf_PlayerResponse} from "@/youtube/ytInitialPlayerResponse/validators.js";
 
 await import ("pathToYtInitialPlayerResponse/ytInitialPlayerResponse.js").then((imported_responseObject)=>{
   try {
